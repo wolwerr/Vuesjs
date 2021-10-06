@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
-      <router-link class="link" to="/">Home</router-link> |
-      <router-link class="link" to="/about">About</router-link> |
+      <router-link class="link" to="/">Inicio</router-link> |
+      <router-link class="link" to="/sobre">Sobre</router-link> |
       <router-link class="link" to="/MaisInformacoes">Mais Informacoes</router-link>
       </div>
 </template>
@@ -21,9 +21,9 @@ export default {
 
 #nav {
   display: flex;
-  justify-content: flex-end;
-  padding: 15px;
-  color: #2c3e50;
+  justify-content:flex-end;
+  padding: 30px;
+  background-color: aqua;
 }
 
 #nav a {
@@ -35,8 +35,9 @@ export default {
   color: #42b983;
 }
 
-.link{
-      margin-left: 15px;
+
+.link {
+  margin-right: 15px;
 }
 
 </style>
